@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritmética-Ej1</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+  </head>
+  <body class="mx-auto w-full">
+    <form class="w-2/4 p-6 mx-auto mt-20 bg-gray-100 shadow-pink-900 shadow-xl"  action="">
+      <h2 class="text-pink-800 font-bold text-4xl underline  text-center mb-12">Formulario-Nota-Media</h2>
+      <div class="w-115 mx-auto">
+        <p class="flex flex-row mb-5 mt-5">
+          <label class=" flex-1" for="nota1">Escribe un número entero</label>
+          <input class="flex-1 border border-grey-600 pl-2 text-pink-800 focus:outline-2 focus:outline-inset-2 focus:outline-pink-800 placeholder:text-pink-700 focus:rounded-md" type="number"  placeholder="Primer entero" type="number" id="nota1">
+        </p>
+        <p class="flex flex-row mb-5 mt-5">
+          <label class=" flex-1" for="nota2">Escribe otro número entero</label>
+          <input class="flex-1 border border-grey-600 pl-2 text-pink-800 focus:outline-2 focus:outline-inset-2 focus:outline-pink-800 placeholder:text-pink-700 focus:rounded-md" type="number" placeholder="Segundo entero" id="nota2">
+        </p>
+        <p class="flex flex-row mb-5 mt-5">
+          <label class=" flex-1" for="nota3">Escribe otro número entero</label>
+          <input class="flex-1 border border-grey-600 pl-2 text-pink-800 focus:outline-2 focus:outline-inset-2 focus:outline-pink-800 placeholder:text-pink-700 focus:rounded-md" type="number" placeholder="Segundo entero" id="nota3">
+        </p>
+
+        
+          <button class="text-pink-800 font-bold  bg-white outline-2 outline-inset-2 outline-pink-900 mt-10   p-2 w-40 rounded-2xl active:scale-95" type="button" onclick="media()">
+          Media
+          </button>
+        <div class="flex flex-row justify-between gap-3 mt-10">
+          <p id="media" class=" hidden border-pink-800 flex-3 w-5 pl-10 border rounded-2xl " ></p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    </form>
+    <script src="./js/app.js"></script>
+      
+  </body>
+</html>
